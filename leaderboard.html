@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <!-- [START head_html] -->
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheets/main.css" />
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <title>
+        Leaderboard - Save The Singapore
+    </title>
+  </head>
+  <!-- [END head_html] -->
+  <body>
+      <script> 
+          window.onload=func;
+          function func(){
+              if (document.cookie){
+                document.getElementById("d").value=document.cookie;
+                document.getElementById("e").innerHTML=document.cookie;}
+              else{ document.getElementById("d").value=0;
+                document.getElementById("e").innerHTML=0;
+          alert('Your score is: 0');
+          }}
+          </script>
+     <div class=container4>
+         <div class = container5>
+    {% for person in leaders[0] %}
+      {% if person.author %}
+        <b>{{ person.author.email }}
+          {% if user and user.user_id() == person.author.identity %}
+            (You)
+          {% endif %}
+        </b>'s score:
+      {% else %}
+             {{ person.name }}'s score:
+      {% endif %}
+      {{ person.score }}
+             <br>
+             <br>
+    {% endfor %}
+             
+    <form action="/leaderboard1" method="post">
+      Enter your name: <textarea name="name" rows="1" cols="30">untitled
+ </textarea><br>
+        Score: <input type = "hidden" name ="score" id = "d"><span id="e"></span>
+
+      <div><input type="submit" value="Submit"></div>
+    </form>
+
+    <hr>
+         </div>
+      </div>
+      
+
+    <a href="{{ url|safe }}" class="menu-btn" id="gbutton">{{ url_linktext }}</a>
+      <a href="/" class="menu-btn" id="gbutton">Home</a>
+      <a href="/game.html" class="menu-btn" id="gbutton">Play Again!</a>
+  </body>
+</html>
+{% endautoescape %}

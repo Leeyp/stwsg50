@@ -1,0 +1,70 @@
+{"quizlist":[
+  
+	{
+	"question":"Singapore is commonly referred to as the _______",
+	"option1":"Lion City",
+	"option2":"Tiger City",
+	"option3":"Lee Kingdom"
+	},
+	{
+	"question":"Apart from English, what is the most commonly used language in SG?",
+	"option1":"Chinese",
+	"option2":"Malay",
+	"option3":"Tamil"
+	},
+    {
+	"question":"Universal Studios Singapore is located in which part of Singapore?",
+	"option1":"Sentosa",
+	"option2":"Raffles Place",
+	"option3":"Jurong East"
+	},
+    {
+	"question":"What does the acronym 'PSLE' stand for?",
+	"option1":"Primary School Leaving Examination",
+	"option2":"Please Stop Learning English",
+	"option3":"Primary Secondary Learning Examination"
+	},
+    {
+	"question":"Who is the current Prime Minister of Singapore?",
+	"option1":"Lee Hsien Loong",
+	"option2":"Lee Kuan Yew",
+	"option3":"Goh Chok Tong"
+	},
+    {
+	"question":"When is Total Defence Day held?",
+	"option1":"15 February",
+	"option2":"9 August",
+	"option3":"25 December"
+	},
+    {
+	"question":"At what age do Singapore students normally enter primary school?",
+	"option1":"7",
+	"option2":"6",
+	"option3":"8"
+	},
+    {
+	"question":"What is the number to call when you need the assistance of the police?",
+	"option1":"999",
+	"option2":"911",
+	"option3":"995"
+	},
+    {
+	"question":"What is the name of Singapore's National Anthem?",
+	"option1":"Majulah Singapura",
+	"option2":"God Save the Queen",
+	"option3":"All Hail Singapore"
+	},
+    {
+	"question":"Which of the following is not a common last name in Singapore?",
+	"option1":"Gi",
+	"option2":"Lee",
+	"option3":"Lim"
+	},
+	{
+	"question":"When is Singapore's National Day?",
+	"option1":"9 August",
+	"option2":"15 February",
+	"option3":"25 December"
+	}
+]
+}

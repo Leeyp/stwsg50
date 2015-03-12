@@ -1,0 +1,36 @@
+application: dhs-leeyp-stw
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /homepage
+  static_dir: homepage
+  
+- url: /game
+  static_dir: game
+  
+- url: /
+  static_files: index.html
+  upload: index.html
+  
+- url: /game.html
+  static_files: main.html
+  upload: main.html
+  
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+  
+- url: /leaderboard.*
+  script: leaderboard.application
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest

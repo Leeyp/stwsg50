@@ -1,0 +1,6 @@
+indexes:
+- kind: Leader
+  properties:
+  - name: score
+    direction: desc
+  - name: date

@@ -1,0 +1,60 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+    background: url(toast.gif) repeat;
+
+}
+p {
+    display: inline-block;
+}
+.container4 {
+    margin: 0;
+    background: #DDDDDD;
+    border-radius: 25px;
+    border: 2px solid;
+    position: absolute;
+    min-height:50%;
+    width: 75%;
+    max-width:75%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.container5 {
+    text-align: center;
+    top: -100%;
+    right: 100%;
+    
+
+    
+}
+
+.readonly {
+    border:none;
+    background:#aaa;    
+}
+
+#gbutton {
+    
+    width: 10vw;
+    padding: 8px;
+    color: #d81e42;
+    background-color: aquamarine;
+    border: 2px solid #DDDDDD;
+    text-align: center;
+    font-size: 1.5vw;
+    outline: none;
+    text-decoration: none;
+    margin-top: 8vw;
+    border-radius: 0.4vw;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+}
+
+#gbutton:hover,
+#gbutton:active {
+    background-color: #22e639;
+    color: #265d76;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
